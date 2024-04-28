@@ -1,0 +1,94 @@
+
+
+body {
+    background-color: #ffffff; 
+    color: #000000; 
+    font-family: "Karla", sans-serif;   
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(41, 55, 53); 
+    color: #ffffff; 
+    padding: 10px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav h1 {
+    margin: 0; 
+    
+}
+
+
+#img1 {
+    width: 100%;
+    display: block;
+    margin: 0;
+    bottom: 15px;
+}
+
+#caja2{
+    text-align: left;
+    border: 2px solid ;
+    margin: 10px auto;
+    max-width: 35%; 
+    border-color:rgb(41, 55, 53) ;
+    border-radius: 10px;
+    color:#ffffff;
+    background-color:  rgb(41, 55, 53);
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#prueba{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+#contenedor{
+    background-color: #fff4f7;
+    width: 80%; 
+    margin: 0 auto;
+    display: flex; 
+    margin-bottom: 100px;
+    
+}
+
+#izquieda #derecha{
+    flex: 1;
+}
+
+
+
+#img2{
+    max-width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin: 10px;
+}
+
+#derecha{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 500px;
+}
+
+#derecha button{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #fff4f7;
+    border-radius: 10px;
+    border-color:rgb(41, 55, 53);
+}
+
